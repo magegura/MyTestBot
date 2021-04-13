@@ -3,7 +3,7 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 const config = require('./config.json');
 const fs = require('promise-fs');
-client.login(process.ev.BOT_TOKEN)
+client.login(process.env.BOT_TOKEN)
 
 bot.commands = new Discord.Collection();
 
